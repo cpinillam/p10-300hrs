@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Microbe&display=swap');
+
+body{
+    background-color: darkblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    background-color: greenyellow;
+    border-radius: 10px;
+    padding: 15px;
+    color: #7c7c7c;
+    border: none;
+}
+
+.box{
+    background-color: red;
+    margin: 5px;
+}
+
+.container{
+    background-color: pink;
+}
+
+@font-face {
+    font-family: alexandria;
+    src: url(./font/alexandria.otf);
+}
+
+.alexandriafont{
+    font-family: alexandria;
+    color: white;
+    font-size: 50px;
+}
+
+.microbio{
+    font-family: 'Rubik Microbe', cursive;
+    color:aliceblue;
+    
+}
